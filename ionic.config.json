@@ -1,5 +1,15 @@
 {
   "name": "myApp",
   "app_id": "",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://music.163.com/api"
+      
+    }  
+  ]
 }
